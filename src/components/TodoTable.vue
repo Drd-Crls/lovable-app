@@ -76,7 +76,6 @@ const todos = ref([])
 const handleCreated = (todo) => {
   todos.value.unshift(todo)
 }
-// 🔥 carregar dados do Supabase
 onMounted(async () => {
   try {
     todos.value = await todoService.listTodos()
