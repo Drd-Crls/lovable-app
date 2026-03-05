@@ -8,7 +8,7 @@
         </h1>
         <p>Organize os peão e memórias em um só lugar.</p>
 
-        <button class="cta" @click="() => this.$router.push('./lista')">Começar</button>
+        <button class="cta" @click="goToList">Começar</button>
       
       </div>
 
@@ -39,6 +39,11 @@
 
 <script setup>
 import fundo from '@/assets/images/fundo.png'
+import { useRouter } from 'vue-router';
+const router = useRouter()
+const goToList = () => {
+  router.push('/lista')
+}
 </script>
 
 <style scoped>

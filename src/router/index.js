@@ -9,7 +9,9 @@ const routes = [
   { path: '/galeria', name: 'galeria', component: GalleryView }
 ]
 
-export default createRouter({
-  history: createWebHistory(),
+const router = createRouter({
+  history: createWebHistory('/lovable-app/'),
   routes
 })
+
+export default router
