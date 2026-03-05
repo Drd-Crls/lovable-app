@@ -25,7 +25,7 @@
     </defs>
 
     <image
-      href="../../images/fundo.png"
+      :href="fundo"
       width="100%"
       height="100%"
       preserveAspectRatio="xMidYMid slice"
@@ -38,6 +38,7 @@
 </template>
 
 <script setup>
+import fundo from '@/assets/images/fundo.png'
 </script>
 
 <style scoped>

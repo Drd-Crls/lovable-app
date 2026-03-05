@@ -48,32 +48,18 @@ const toggleEdit = () => {
   }
 }
 
+import img1 from '@/assets/images/img1.jpeg'
+import img2 from '@/assets/images/img2.jpeg'
+import img3 from '@/assets/images/img3.jpeg'
+import img4 from '@/assets/images/img4.jpeg'
+import img5 from '@/assets/images/img5.jpeg'
+
 const photos = ref([
-  {
-    id: 1,
-    title: 'Memória 1',
-    url: 'images/img1.jpeg'
-  },
-  {
-    id: 2,
-    title: 'Memória 2',
-    url: 'images/img2.jpeg'
-  },
-  {
-    id: 3,
-    title: 'Memória 3',
-    url: 'images/img3.jpeg'
-  },
-  {
-    id: 4,
-    title: 'Memória 4',
-    url: 'images/img4.jpeg'
-  },
-  {
-    id: 5,
-    title: 'Memória 5',
-    url: 'images/img5.jpeg'
-  }
+  { id: 1, title: 'Memória 1', url: img1 },
+  { id: 2, title: 'Memória 2', url: img2 },
+  { id: 3, title: 'Memória 3', url: img3 },
+  { id: 4, title: 'Memória 4', url: img4 },
+  { id: 5, title: 'Memória 5', url: img5 }
 ])
 </script>
 
